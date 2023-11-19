@@ -1,4 +1,4 @@
-import { MoreWidgetsProps } from "@/interfaces"
+import { LandingPageProps, MoreWidgetsProps } from "@/interfaces"
 
 export const moreWidgets: MoreWidgetsProps[] = [
     {
@@ -24,5 +24,57 @@ export const moreWidgets: MoreWidgetsProps[] = [
         widgetName: "Popup builder",
         heading: "Design pop-ups your visitors want to see.",
         text: "Visually build professional popups with eye-catching animations and define when and where to display them."
+    },
+    {
+        videoUrl: "motion-effects.mp4",
+        widgetName: "Motion effects",
+        heading: "Bring your site to life with animations.",
+        text: "Add lively and interactive animations and transitions to your site. Make your site look dynamic and alive.",
+    }
+]
+
+
+export const landingPagesImages: LandingPageProps[] = [
+    {
+        landingPageImage: "/lp2.jpeg"
+    },
+    {
+        landingPageImage: "/lp3.png"
+    },
+    {
+        landingPageImage: "/lp4.jpeg"
+    },
+    {
+        landingPageImage: "/lp5.png"
+    },
+    {
+        landingPageImage: "/lp6.jpeg"
+    },
+    {
+        landingPageImage: "/lp7.png"
+    },
+    {
+        landingPageImage: "/lp8.jpeg"
+    },
+    {
+        landingPageImage: "/lp9.png"
+    },
+    {
+        landingPageImage: "/lp10.jpeg"
+    },
+    {
+        landingPageImage: "/lp11.jpg"
+    },
+    {
+        landingPageImage: "/lp11.png"
+    },
+    {
+        landingPageImage: "/lp12.png"
+    },
+    {
+        landingPageImage: "/lp13.png"
+    },
+    {
+        landingPageImage: "/lp14.png"
     },
 ]

@@ -11,3 +11,7 @@ export interface MoreWidgetsProps {
     heading:string
     text:string
 } 
+
+export interface LandingPageProps {
+  landingPageImage: string
+}
