@@ -36,7 +36,7 @@ const aboutus: AboutProps[] = [
 
 const AboutUs = () => {
   return (
-    <div className="mt-24 mb-16 mx-4 lg:mx-0">
+    <div className="mt-24 mb-16 mx-10 lg:mx-0">
       <div
         style={{
           backgroundImage: "url(/image-3451.jpg)",

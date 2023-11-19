@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
 import {
   Sheet,
   SheetContent,
@@ -14,10 +12,8 @@ import {
 import { navlinks } from "./Navbar";
 
 import Link from "next/link";
-
-import { Poppins } from "next/font/google";
-
 import Image from "next/image";
+import { Poppins } from "next/font/google";
 
 import Logo from "@/public/jupiter_logo.svg";
 import { Button } from "@/components/ui/button";
@@ -30,8 +26,6 @@ const poppins = Poppins({
 });
 
 const MobileNavbar = () => {
-  const [mobile, setMobile] = useState(false);
-
   return (
     <>
       <div className={`lg:hidden flex`}>
@@ -57,7 +51,7 @@ const MobileNavbar = () => {
                       <button
                         key={links}
                         className={`hover:bg-gray-100 transition-all duration-100 ease-in-out rounded-3xl h-10 font-medium text-[15px] w-24 ${poppins.className}`}
-                      >
+                      > 
                         <Link href="#">{links}</Link>
                       </button>
                     ))}

@@ -43,16 +43,15 @@ const Navbar = () => {
             style={{
               backgroundImage:
                 "linear-gradient(90deg, #EC33C8 2%, #3319CB 100%)",
-            }}
+            }} 
           >
             Buy JupiterX
           </button>
         </div>
       </div>
-      <MobileNavbar />
+      {/* <MobileNavbar /> */}
     </>
   );
 };
 
 export default Navbar;
-// transition: all .5s;

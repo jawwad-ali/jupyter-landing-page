@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.WidgetsHeading {
+  color: #fc4cda;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(270deg, #fc4cda 0%, #3613fa 100%);
+}
+
+.shopsBuilder {
+  color: #ff96aa;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(100deg, #ff96aa 0%, #ce082c 100%);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.headerBuilder {
+  color: #fa89ca;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(96deg, #fa89ca 0%, #da6cab 100%);
+  font-size: 30px;
+  font-weight: 900;
+}
