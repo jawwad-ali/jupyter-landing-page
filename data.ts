@@ -1,4 +1,4 @@
-import { LandingPageProps, MoreWidgetsProps } from "@/interfaces"
+import { CustomizeProps, LandingPageProps, MoreWidgetsProps } from "@/interfaces"
 
 export const moreWidgets: MoreWidgetsProps[] = [
     {
@@ -76,5 +76,38 @@ export const landingPagesImages: LandingPageProps[] = [
     },
     {
         landingPageImage: "/lp14.png"
+    },
+]
+
+export const customize: CustomizeProps[] = [
+    {
+        iconUrl: "/css.png",
+        heading: "Custom CSS",
+        text: "Expand abilities with custom CSS to control the appearance and behavior of any section on your website."
+    },
+    {
+        iconUrl: '/code.png',
+        heading: "Custom Code",
+        text: "Integrate third party tools like Google Analytics with custom code. Write snippets in PHP for even greater flexibility."
+    },
+    {
+        iconUrl: '/custom_fonts.png',
+        heading: "Custom Fonts",
+        text: "Upload your own custom fonts using popular formats like WOFF, WOFF2, TTF, SVG or EOT files or connect Adobe Fonts for total brand consistency."
+    },
+    {
+        iconUrl: "/213111_f0c9_icon.png",
+        heading: "Custom Icons",
+        text: "Create smart vector-based SVG icons that are flexible, light, and completely customizable for any size you require."
+    },
+    {
+        iconUrl: "/custom_fields.png",
+        heading: "Custom Fields",
+        text: "Add custom fields to any post type to capture and store extra information related to any type of page or post."
+    },
+    {
+        iconUrl: "/custom_post.png",
+        heading: "Custom Post Types",
+        text: "Extend beyond standard WordPress posts and create your own custom post types (CPT) to handle any kind of specialized content."
     },
 ]

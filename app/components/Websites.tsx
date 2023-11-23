@@ -18,8 +18,8 @@ const Websites = () => {
       {/* Right */}
       <div className="lg:w-1/2 w-full">
         <div className="flex gap-4 flex-wrap flex-1 mt-16 mx-auto justify-evenly">
-          {landingPagesImages.map((picture: LandingPageProps) => (
-            <div className="mb-4">
+          {landingPagesImages.map((picture: LandingPageProps,idx:number) => (
+            <div className="mb-4" key={idx}>
               <Image
                 className="rounded-xl"
                 src={picture.landingPageImage}
@@ -36,27 +36,3 @@ const Websites = () => {
 };
 
 export default Websites;
-
-// background-image: linear-gradient(90deg, rgb(54, 19, 250), rgb(252, 76, 218), rgb(54, 19, 250), rgb(252, 76, 218));
-//     animation-duration: 3s;
-//     background-size: 300% 100%;
-//     animation-name: AnimatedGradientBgLeft;
-
-// animation-duration: 3s;
-//     animation-timing-function: linear;
-//     animation-delay: 0s;
-//     animation-iteration-count: infinite;
-//     animation-direction: normal;
-//     animation-fill-mode: none;
-//     animation-play-state: running;
-//     animation-name: AnimatedTextGradient;
-//     animation-timeline: auto;
-//     animation-range-start: normal;
-//     animation-range-end: normal;
-
-// 0% {
-//     background-position: 0 0;
-// }
-// 100% {
-//     background-position: 100% 0;
-// }

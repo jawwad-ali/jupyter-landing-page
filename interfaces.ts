@@ -6,12 +6,18 @@ export const poppins = Poppins({
 });
 
 export interface MoreWidgetsProps {
-    videoUrl:string
-    widgetName:string
-    heading:string
-    text:string
-} 
+  videoUrl: string
+  widgetName: string
+  heading: string
+  text: string
+}
 
 export interface LandingPageProps {
   landingPageImage: string
+}
+
+export interface CustomizeProps {
+  iconUrl: string
+  heading: string
+  text: string
 }

@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs";
+import Customize from "./components/Customize";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Websites from "./components/Websites";
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutUs />
       <Widgets />
       <Websites />
+      <Customize />
     </main>
   ); 
 }
