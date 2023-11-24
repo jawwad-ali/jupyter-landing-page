@@ -1,4 +1,4 @@
-import { CustomizeProps, LandingPageProps, MoreWidgetsProps } from "@/interfaces"
+import { CustomizeProps, FooterProps, LandingPageProps, MoreWidgetsProps } from "@/interfaces"
 
 export const moreWidgets: MoreWidgetsProps[] = [
     {
@@ -110,4 +110,23 @@ export const customize: CustomizeProps[] = [
         heading: "Custom Post Types",
         text: "Extend beyond standard WordPress posts and create your own custom post types (CPT) to handle any kind of specialized content."
     },
+]
+
+export const FooterData: FooterProps[] = [
+    {
+        title: "Top Features",
+        item: ['All Features', 'WooCommerce', '100+ Elements', 'Layout Builders', 'Motion Effects', 'Live Page Editor', 'Popup Builder', 'Form Builder', 'Dynamic Content', 'Header Builder', 'Footer Builder', 'Posts Layouts']
+    },
+    {
+        title: "Latest demos",
+        item: ['Manicure 2', 'Dance academy', 'Hotel listing 3', 'Agency 3', 'Video Production', 'Hotel Listing 2', 'Yacht Rental', 'Car Rental', 'Watches Shop', 'Swimwear Shop', 'Accountant', 'Wedding Dresser', 'Law Firm', 'Real Estate']
+    }, 
+    {
+        title: "Resources",
+        item: ['Getting started', 'Release notes', 'Blog', 'Terms of services', 'Privacy Policy']
+    },
+    {
+        title: "Support",
+        item: ['Help center', 'Facebook group', 'Submit a ticket', 'Hire us']
+    }
 ]

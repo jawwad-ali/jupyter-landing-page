@@ -21,3 +21,8 @@ export interface CustomizeProps {
   heading: string
   text: string
 }
+
+export interface FooterProps {
+  title: string;
+  item:string[]
+}
