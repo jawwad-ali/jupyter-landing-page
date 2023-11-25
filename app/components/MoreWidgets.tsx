@@ -15,19 +15,18 @@ const MoreWidgets = () => {
           <>
             <div className="lg:w-1/2 w-full lg:ml-auto">
               <div className="relative lg:ml-7">
-                <div>
-                  <video
-                    className="rounded-md"
-                    width="100%"
-                    height="100%"
-                    loop
-                    autoPlay
-                    muted
-                    style={{ width: "579.969px", height: "386.646px" }}
-                  >
-                    <source src={data.videoUrl} type="video/mp4" />
-                  </video>
-                </div>
+                <video
+                  className="rounded-md"
+                  width="100%"
+                  height="100%"
+                  loop
+                  autoPlay
+                  muted
+                  // style={{ width: "100%", height: "100%" }}
+                  style={{ width: "579.969px", height: "386.646px" }}
+                >
+                  <source src={data.videoUrl} type="video/mp4" />
+                </video>
               </div>
             </div>
 

@@ -47,7 +47,7 @@ const obj: LiveEditingProps[] = [
 const WidgetLists = () => {
   return (
     <>
-      <div className="flex lg:flex-row flex-col w-full mt-28 lg:mx-0 px-8">
+      <div className="flex lg:flex-row flex-col w-full lg:mt-40 lg:mx-0 px-8">
         <div className="lg:w-1/2 w-full lg:ml-auto ml-0">
           <div className="relative lg:ml-7">
             <Image
